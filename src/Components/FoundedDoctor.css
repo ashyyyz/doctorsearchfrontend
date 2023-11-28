@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.doctor-results-outer{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    flex-wrap:nowrap;
+
+}
+
+.doctor-box{
+    width:500px;
+    height: 500px;
+    margin: 5px;
+    color: aqua;
+}
